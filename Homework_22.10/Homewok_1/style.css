@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+
+
+/*Under*/
+.under_button{
+    display: block;
+    margin: 20px auto;
+
+    padding: 10px 20px;
+
+    border: 1px solid blue;
+    border-radius: 5%;
+    background-color: blue;
+
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+/*Surface*/
+
+.surface{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: #292828e0;
+
+}
+
+.surface_content{
+    margin: 70px auto;
+
+    height: auto;
+    width: 450px;
+
+    background-color: #fff;
+    box-shadow: 0 0 10px 1px #000;
+    border-radius: 2%;
+
+}
+
+.surface_items{
+    padding: 15px 20px;
+}
+
+.surface_title{
+    position: relative;
+}
+
+.surface_title::before{
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: -50%;
+    right: 0;
+
+    height: 20px;
+    width: 20px;
+
+    border-top: 3px solid #000;
+    transform: rotate(45deg);
+
+    cursor: pointer;
+}
+
+.surface_title::after{
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: -50%;
+    right: -3.5%;
+
+    height: 20px;
+    width: 20px;
+
+    border-top: 3px solid #000;
+    transform: rotate(-45deg);
+
+    cursor: pointer;
+}
+
+.surface_button{
+    display: block;
+    margin: 100px 0 0 auto;
+
+    padding: 10px 20px;
+
+    border: 1px solid blue;
+    border-radius: 5%;
+    background-color: blue;
+
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+
+
+
